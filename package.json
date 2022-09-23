@@ -1,0 +1,21 @@
+{
+  "name": "module-federation-example",
+  "version": "1.0.0",
+  "description": "",
+  "workspaces": ["/*"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run start -w shell & npm run start -w app1 & npm run start -w app2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theninthsky/module-federation-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theninthsky/module-federation-example/issues"
+  },
+  "homepage": "https://github.com/theninthsky/module-federation-example#readme"
+}

@@ -4,7 +4,7 @@ import Welcome from './components/Welcome'
 
 const App = ({ className, onClose }) => (
   <div className={className}>
-    <h2 style={{ color: 'blue' }}>App 2</h2>
+    <h2 style={{ color: 'blue' }}>App 2jfiojfweojoi</h2>
 
     <Welcome />
     <Button onClick={onClose}>Hide</Button>
